@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'volt', '0.9.4pre3'
+gem 'volt', git: 'https://github.com/voltrb/volt.git'
 gem 'opal-phaser', git: 'https://github.com/orbitalimpact/opal-phaser.git'
 
 # volt uses mongo as the default data store.
