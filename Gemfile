@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'volt', git: 'https://github.com/voltrb/volt.git'
 gem 'opal-phaser', git: 'https://github.com/orbitalimpact/opal-phaser.git'
 
+gem 'faye-websocket', '0.9.2'
+gem 'websocket-driver', '0.5.4'
+
 # volt uses mongo as the default data store.
 gem 'volt-mongo', '~> 0.1.0'
 
