@@ -3,9 +3,13 @@ require 'examples/lib/load_an_image'
 
 module Main
   class MainController < Volt::ModelController
+    def before_index_remove
+      @game.phaser_game.destroy
+    end
+    
     def index_ready
       puts "index ready"
-      Game.new
+      @game = Game.new
     end
 
     def about
